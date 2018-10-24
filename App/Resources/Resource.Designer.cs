@@ -2165,14 +2165,14 @@ namespace App
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f08009c
-			public const int UserDescriptionTextView = 2131230876;
-			
-			// aapt resource value: 0x7f08009a
-			public const int UserNameTextView = 2131230874;
+			// aapt resource value: 0x7f08009d
+			public const int UserDescriptionTextView = 2131230877;
 			
 			// aapt resource value: 0x7f08009b
-			public const int UserSurNameTextView = 2131230875;
+			public const int UserNameTextView = 2131230875;
+			
+			// aapt resource value: 0x7f08009c
+			public const int UserSurNameTextView = 2131230876;
 			
 			// aapt resource value: 0x7f080086
 			public const int action0 = 2131230854;
@@ -2402,8 +2402,8 @@ namespace App
 			// aapt resource value: 0x7f080048
 			public const int list_item = 2131230792;
 			
-			// aapt resource value: 0x7f08009e
-			public const int masked = 2131230878;
+			// aapt resource value: 0x7f08009f
+			public const int masked = 2131230879;
 			
 			// aapt resource value: 0x7f080073
 			public const int master_fragment_container = 2131230835;
@@ -2576,6 +2576,9 @@ namespace App
 			// aapt resource value: 0x7f080011
 			public const int tabMode = 2131230737;
 			
+			// aapt resource value: 0x7f08009a
+			public const int tableRow1 = 2131230874;
+			
 			// aapt resource value: 0x7f080098
 			public const int text = 2131230872;
 			
@@ -2633,8 +2636,8 @@ namespace App
 			// aapt resource value: 0x7f08000e
 			public const int view_offset_helper = 2131230734;
 			
-			// aapt resource value: 0x7f08009d
-			public const int visible = 2131230877;
+			// aapt resource value: 0x7f08009e
+			public const int visible = 2131230878;
 			
 			// aapt resource value: 0x7f080027
 			public const int withText = 2131230759;

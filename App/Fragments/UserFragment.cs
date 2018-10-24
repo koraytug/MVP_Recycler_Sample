@@ -77,35 +77,19 @@ namespace App.Fragments
         // Create new views (invoked by the layout manager)
         public override RecyclerView.ViewHolder OnCreateViewHolder(ViewGroup parent, int viewType)
         {
-          //Setup and inflate your layout here
-          // var id = Resource.Layout.fragment_container;
-
-          var id = Resource.Layout.UserItem;
-
-          //var itemView = LayoutInflater.From(parent.Context).Inflate(id, parent, false);
-
           View itemView = LayoutInflater.From(parent.Context).Inflate(Resource.Layout.UserItem, parent, false);
           UserFragment.UserViewHolder viewHolder = new UserFragment.UserViewHolder(itemView, _fragment);
 
           return viewHolder;
-           // return new UserFragment.UserViewHolder(itemView, _fragment);
         }
 
         // Replace the contents of a view (invoked by the layout manager)
         public override void OnBindViewHolder(RecyclerView.ViewHolder viewHolder, int position)
         {
-            //var item = images[position];
-            //// Replace the contents of the view with that element
-            //var holder = viewHolder as ImageAdapterViewHolder;
-            //holder.Caption.Text = item.Title;
-            //Picasso.With(activity).Load(item.ImageLink).Into(holder.Image);
-
             var holder = viewHolder as UserFragment.UserViewHolder;
             holder.Name.Text = _userList[position].Name;
             holder.Surname.Text = _userList[position].Surname;
             holder.Description.Text = _userList[position].Description;
-
-            //Picasso.With(activity).Load(item.ImageLink).Into(holder.Image);
         }
         public override int ItemCount => _userList.Count;
     }

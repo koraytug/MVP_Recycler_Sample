@@ -73,14 +73,14 @@ namespace App.Repositories
                     UserId = 1,
                     Name = "Martin",
                     Surname = "AXABRINK",
-                    Description = "VirtuDev"
+                    Description = "OptiDev"
                 },
                 new UserModel()
                 {
                     UserId = 1,
                     Name = "Daniel",
                     Surname = "SALOMONSSON",
-                    Description = "VirtuDev"
+                    Description = "OptiDev"
                 }
             };
             return users;
