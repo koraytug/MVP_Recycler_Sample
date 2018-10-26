@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">App</string>
     <string name="action_settings">Settings</string>
+    
+    <!-- Fragment Tags -->
+    <string name="tag_recycler_fragment_home">Home</string>
 </resources>

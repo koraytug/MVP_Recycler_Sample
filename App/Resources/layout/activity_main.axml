@@ -4,6 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+	<Button
+			android:id="@+id/btnRecyclerOpenerButtonView"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="Diğer Recycler Örneğini Aç" />
 	 <FrameLayout
       android:id="@+id/master_fragment_container"
       android:layout_height="match_parent"
