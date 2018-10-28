@@ -4,4 +4,12 @@
     
     <!-- Fragment Tags -->
     <string name="tag_recycler_fragment_home">Home</string>
+
+  <string name="tab1_title">Tab1</string>
+  <string name="tab2_title">Tab2</string>
+  <string name="tab3_title">Tab3</string>
+
+  <string name="fragment1">This is the first tab.</string>
+  <string name="fragment2">This is the second tab.</string>
+  <string name="fragment3">This is the third tab.</string>
 </resources>
